@@ -1,8 +1,13 @@
 package linked.SinglyLinkedList;
 
-class Node<E> {
-    E item;
-    Node<E> next;
+public class Node<E> {
+    public E item;
+    public Node<E> next;
+
+    public Node(E element) {
+        item = element;
+        this.next = null;
+    }
 
     public Node(E element, Node<E> next) {
         item = element;

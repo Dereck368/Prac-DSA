@@ -2,6 +2,11 @@ package linked.SinglyLinkedList;
 
 public class LList<E> {
     private Node<E> head;
+
+    /* This would be more efficient with a variable tail
+     * if I to add a variable tail, this would work really well
+     * to implement a Queue
+     */
     
     public LList() {
         head = null; 
@@ -46,7 +51,7 @@ public class LList<E> {
         return build.toString();
     }
 
-    // overflow error and underflow error trying to remove at index over list size
+    // add overflow error and underflow error trying to remove at index over list size
     // when doing fully node implementation make sure that insert runs in 0(1) time
     // insert at index linked list function
     public void insertAfter(int i, int value) {
@@ -71,7 +76,7 @@ public class LList<E> {
         head = node;
     }
 
-    // overflow error and underflow error trying to remove at index
+    // add underflow error trying to remove at index
     // remove node at index
     public void remove(int i) {
         int idx = 0;

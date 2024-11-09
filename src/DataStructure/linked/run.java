@@ -1,5 +1,5 @@
-package linked;
-import linked.SinglyLinkedList.*;
+package DataStructure.linked;
+import DataStructure.linked.SinglyLinkedList.*;
 
 public class run {
     public static void main(String args []) {

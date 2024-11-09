@@ -1,6 +1,6 @@
-package stack;
+package DataStructure.stack;
 
-import linked.SinglyLinkedList.Node;
+import DataStructure.linked.SinglyLinkedList.Node;
 
 public class Stack<E> {
     private Node<E> top;

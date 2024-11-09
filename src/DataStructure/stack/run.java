@@ -1,4 +1,4 @@
-package stack;
+package DataStructure.stack;
 
 public class run {
     public static void main(String args []) {

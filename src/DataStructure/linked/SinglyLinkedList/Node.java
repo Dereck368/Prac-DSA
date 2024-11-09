@@ -1,4 +1,4 @@
-package linked.SinglyLinkedList;
+package DataStructure.linked.SinglyLinkedList;
 
 public class Node<E> {
     public E item;
